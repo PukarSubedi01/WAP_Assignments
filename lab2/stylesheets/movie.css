@@ -1,0 +1,129 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 8pt;
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("../assets/background.png");
+}
+#banner-wrapper {
+  background-repeat: repeat-x;
+  background-image: url("../assets/bannerbg.png");
+  height: 50px;
+}
+#banner {
+  margin: 0 auto;
+  width: fit-content;
+}
+#heading-wrapper {
+  margin: 10px;
+}
+#heading-wrapper > h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24pt;
+  text-shadow: 3px 3px #999999;
+}
+#content-wrapper {
+  width: 800px;
+  margin: 0 auto;
+
+  border: 4px grey solid;
+  border-radius: 20px;
+  overflow: auto;
+}
+#overall-rating {
+  width: 550px;
+  background-image: url("../assets/rbg.png");
+  background-repeat: repeat-x;
+}
+#image-wrapper > span {
+  font-weight: bold;
+  font-size: 48pt;
+  color: red;
+}
+#image-wrapper > span {
+  vertical-align: top;
+}
+#right-content {
+  background-color: #a2b964;
+  width: 250px;
+  float: right;
+}
+#left-content {
+  width: 550px;
+  overflow: auto;
+}
+#left-column {
+  float: left;
+}
+#right-column {
+  float: left;
+}
+.rating-column {
+  width: 47%;
+  margin: 1% 2% 0 1%;
+}
+.quote-box {
+  background-color: #e8dc9b;
+  border: 2px solid grey;
+  border-radius: 10px;
+  overflow: auto;
+  padding: 8px;
+}
+.quote-box q {
+  vertical-align: middle;
+  font-weight: bold;
+}
+.quote-box > p > img {
+  float: left;
+  margin-right: 5px;
+}
+.users-section {
+  margin-top: 8px;
+}
+.users-section > p > span {
+  font-style: italic;
+}
+.review-wrapper {
+  overflow: auto;
+  margin-bottom: 20pt;
+}
+.users-section > p > img {
+  float: left;
+}
+#overview {
+  padding-left: 10pt;
+  line-height: 12pt;
+}
+#overview > dt {
+  font-weight: bold;
+}
+
+#links {
+  list-style: none;
+  margin-block-start: 0;
+  padding-inline-start: 0;
+}
+#main-section {
+  overflow: auto;
+  margin-bottom: 0;
+}
+
+#footer {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #a2b964;
+  padding: 5px;
+  text-align: center;
+}
+
+#validator-container {
+  width: fit-content;
+  margin-left: auto;
+}
