@@ -1,0 +1,47 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1,
+h2 {
+  color: rgb(104, 11, 171);
+}
+
+.red {
+  color: red;
+}
+
+.bold {
+  font-weight: bold;
+}
+#about-me {
+  text-align: center;
+}
+#happy-mood {
+  float: left;
+  margin-right: 50px;
+}
+
+#content-wrapper {
+  width: 100%;
+  overflow: auto;
+  background-color: aqua;
+  padding: 0 100px;
+}
+
+#about-me > p::first-letter {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#movies dt {
+  color: rgb(255, 0, 251);
+}
