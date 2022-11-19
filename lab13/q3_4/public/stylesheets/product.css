@@ -1,0 +1,19 @@
+.container,
+.contents {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container > h1 {
+  margin-left: 1%;
+}
+.product-card {
+  background-color: whitesmoke;
+  width: 23%;
+  border: 1px solid;
+  border-radius: 10px;
+  overflow: auto;
+  padding: 10px;
+  margin: 1%;
+  box-sizing: border-box;
+}

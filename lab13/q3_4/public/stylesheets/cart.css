@@ -1,0 +1,10 @@
+.container,
+.contents {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-card {
+  width: fit-content;
+  border-bottom: 1px solid black;
+}
