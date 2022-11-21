@@ -1,0 +1,9 @@
+<div class="product-card">
+  <form action="/cart/addToCart" method="post">
+    <h3><%=prod.name%></h3>
+    <h4>Price: $<%=prod.price%></h4>
+    <input type="hidden" name="id" value="<%=prod.id%>" />
+    <p><%=prod.description%></p>
+    <input type="submit" value="Add To Cart" />
+  </form>
+</div>
