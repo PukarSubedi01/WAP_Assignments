@@ -1,0 +1,17 @@
+<%- include('../template/head.ejs') %>
+<link rel="stylesheet" href="stylesheets/cart.css">
+</head>
+<body>
+    <%- include('../template/navigation.ejs')%>
+    <div class="container">
+    <h1>Cart Items</h1>
+        <div class="contents">
+
+        <% cartItems.forEach(cart => {%>
+            <%- include('fragments/cartCard.ejs', {cart})%>
+        <%})%>
+    </div>
+
+    </div>
+</body>
+<%- include('../template/end.ejs') %>
